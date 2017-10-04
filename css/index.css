@@ -19,8 +19,7 @@ div {
 nav {
     width: 100%;
     background-color: #251603;
-    opacity: 0.5;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 nav ul li {
@@ -36,6 +35,11 @@ nav a {
 
 nav a:hover {
     background: #153800;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
 }
 
 .menu-trigger {
@@ -107,3 +111,80 @@ nav a:hover {
         width: 100%;
     }
 }
+
+.main {
+    margin-top: 0px;
+}
+
+#restor1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+form {
+    padding: 0 5% 0 2%;
+    margin: 0 3%;
+}
+
+form p {
+    margin: 0;
+    font-size: 17px;
+}
+
+form spam {
+    font-size: 14px;
+}
+
+#spam-firstname {
+    margin-left: 1%;
+}
+
+#spam-lastname {
+    margin-left: 40%;
+}
+
+input[type=text], input[type=email], form textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 6px 0 4px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+#name {
+    width: 47.6%;
+}
+
+#name {
+    margin-right: 1.736%;
+}
+
+form textarea {
+    height: 83px;
+}
+
+input[type=submit] {
+    padding: 1em 2.5em;
+    border-width: 0;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    letter-spacing: .2em;
+    color: #fff;
+    background-color: #272727;
+}
+
+form p, input[type=submit] {
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+
+

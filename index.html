@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/slide.css" type="text/css" />
     <title>Document</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 </head>
@@ -17,9 +17,9 @@
 
         <body>
             <nav>
-                <a href="#" class="menu-trigger">Готельно-ресторанний комплекс "Хап.-ОК!"</a>
+                <a href="#" class="menu-trigger">Меню</a>
                 <ul>
-                    <li><a href="index.html">Готельно-ресторанний комплекс "Хап.-ОК!</a></li>
+                    <li><a href="index.html">Головна</a></li>
                     <li><a href="restaurant.html">Ресторан</a></li>
                     <li><a href="rooms.html">Номери</a></li>
                     <li><a href="https://www.booking.com/hotel/ua/amp-restaurant-complex-hap-ok.uk.html">Booking</a></li>
@@ -27,48 +27,29 @@
             </nav>
     </header>
     <main>
-        <!-- Bootstrap image-->
-        <main>
-       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/background1.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/resturant4.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/room6.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+        <!-- carousel-->
+      <div class="slideShow">
+    <img class="placeHolder" src="img/background1.jpg" alt="my slideshow">
+    <div class="layer1"></div>
+    <div class="layer2"></div>
+    <div class="layer3"></div>
+    <div class="slideOverlay"><p>Хап-ОК</p></div>
 </div>
-        <!-- Bootstrap image end-->
+        <!-- end carousel-->
         
-        <div class="main">
-
-            <div id="head-image">
-                <img id="bg" src="img/background.jpg">
-            </div>
-        </div>
+        
         <div class="main-text">
             <h1>Готельно-ресторанний комплекс "Хап.-ОК!"</h1>
             <p> Розташований у селищі Бродки за 27 км від Львова. До послуг гостей номери з кондиціонерами, безкоштовний Wi-Fi на всій території, тераса, приладдя для барбекю, ресторан та безплатна приватна парковка на території. Номери облаштовані телевізором
                 з плоским екраном та власною ванною кімнатою. Для зручності гостям надаються капці та безкоштовні туалетно-косметичні засоби. Здійснюється обслуговування номерів. Відстань до міжнародного аеропорту "Львів" імені Данила Галицького становить
                 24 км. </p>
         </div>
-        <div class="image">
-            <img id="room1" src="img/room1.jpg">
-            <img id="room2" src="img/room2.jpg">
-            <img id="rest1" src="img/resturant1.jpg">
-        </div>
+        
+        
+        
+        
+        
+        
         <div class="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1412.6170183923762!2d24.002114568699984!3d49.60053351928445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x428d500caedfe103!2z0KXQsNC_LdCe0Lo!5e0!3m2!1suk!2sua!4v1506932985187"
                 width=100% height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -92,10 +73,8 @@
         </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/smooth-scroll.js"></script>
-  <script type="text/javascript" src="js/bootstrap-collapse-navbar.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
         </body>
 
 </html>

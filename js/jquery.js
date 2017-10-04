@@ -34,3 +34,16 @@ $(function() {
     });
 
 });
+
+
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    
+    $('.carousel').carousel('next');
+$('.carousel').carousel('next', 3);
+
+$('.carousel.carousel-slider').carousel({fullWidth: true});
+
+
