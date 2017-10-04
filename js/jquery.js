@@ -1,13 +1,13 @@
 $(document).ready(function() {
-  $('.menu-trigger').click(function() {
-    $('nav ul').slideToggle(500);
-  });//end slide toggle
-  
-  $(window).resize(function() {		
-		if (  $(window).width() > 500 ) {			
-			$('nav ul').removeAttr('style');
-		 }
-	});
+    $('.menu-trigger').click(function() {
+        $('nav ul').slideToggle(500);
+    }); //end slide toggle
+
+    $(window).resize(function() {
+        if ($(window).width() > 500) {
+            $('nav ul').removeAttr('style');
+        }
+    });
 });
 
 $(function() {
@@ -21,9 +21,10 @@ $(function() {
         $.ajax({
             url: "https://formspree.io/v.doomich@gmail.com",
             method: "POST",
-            data: { 
+            data: {
                 clientName: $('#client-name').val(),
-                accountBalance: $('#telefone').val()},
+                accountBalance: $('#telefone').val()
+            },
             dataType: "json"
         }).done(function() {
             form.reset();
@@ -34,16 +35,5 @@ $(function() {
     });
 
 });
-
-
-$(document).ready(function(){
-      $('.carousel').carousel();
-    });
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-    
-    $('.carousel').carousel('next');
-$('.carousel').carousel('next', 3);
-
-$('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
